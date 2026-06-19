@@ -4,7 +4,6 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 
-// Tareas del semestre (equivalente a la BD SQLite)
 const tareas = [
   { id: 1, titulo: "Tarea 1 - Etiquetas HTML", url: "https://github.com/SDKsebas/tarea1-html/blob/main/tarea%201.pdf" },
   { id: 2, titulo: "Tarea 2 - Paginas Estaticas vs Dinamicas", url: "https://github.com/SDKsebas/tarea2-estaticas/blob/main/tarea%202.pdf" },
